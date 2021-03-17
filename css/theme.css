@@ -1,0 +1,303 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+/* Botones */
+.btn-primary {
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+  background: #003366;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+  outline: none;
+}
+.btn-primary:hover {
+  background: #01458a;
+  box-shadow: 10px 10px 8px 0px rgba(121, 131, 192, 0.28);
+}
+
+.btn-secondary:hover {
+  background: #01458a;
+  box-shadow: 10px 10px 8px 0px rgba(121, 131, 192, 0.28);
+}
+
+.btn-secondary {
+  background: #003366;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 60px;
+  outline: none;
+}
+
+/* Navbar */
+header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  transition: background-color 0.5s;
+  color: #003366;
+  z-index: 999;
+}
+.header-color {
+  background: #ffffff;
+  color: #003366;
+}
+.navbar {
+  margin: 0px 70px;
+}
+.contenedor-navbar {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+.color-links {
+  padding-right: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+.color-links2 {
+  padding-right: 15px;
+  text-decoration: none;
+  color: #003366;
+}
+
+/* Seccion Hero */
+.inicio {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  background-image: url(/images/slider/cortinas-roller.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inicio p {
+  margin: 0;
+  color: #fff;
+  font-size: 40px;
+}
+.inicio .contenedor-titulo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Seccion Nosotros */
+.nosotros {
+  width: 100%;
+  display: flex;
+  padding: 60px 0px;
+}
+.nosotros .contenedor {
+  display: flex;
+  margin: auto;
+  max-width: 1200px;
+}
+.nosotros .txt-info {
+  width: 500px;
+}
+.nosotros .contenedor-logos-nosotros {
+  display: flex;
+}
+.nosotros .logos-nosotros {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+}
+.nosotros .contenedor-logo {
+  display: flex;
+  filter: drop-shadow(1.414px 1.414px 2px rgba(0, 0, 0, 0.25));
+  background-color: #ffffff;
+  padding: 20px 20px;
+  border-radius: 40px;
+}
+.nosotros .contenedor-logo img {
+  width: 30px;
+}
+
+/* Seccion Nuestros servicios */
+.nuestros-servicios {
+  width: 100%;
+}
+.nuestros-servicios .titulo-servicios {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: #fff;
+  background: #003366;
+}
+
+.nuestros-servicios .servicios-contenido {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nuestros-servicios .servicios-contenido img {
+  width: 380px;
+}
+.nuestros-servicios .servicios-texto-imagen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+/* Seccion Contacto */
+.contacto {
+  padding-top: 60px;
+}
+.contacto .imagen-de-fondo {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/bg/bg-contacto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacto .titulo-principal {
+  text-align: center;
+  color: #fff;
+}
+.contacto .campos {
+  display: flex;
+  padding: 40px 0px;
+}
+.contacto .campos input {
+  padding: 15px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 7px;
+}
+.contacto .campos .datos-principales {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+}
+.contacto .campos .mensaje textarea {
+  width: 500px;
+  padding: 15px;
+  border: none;
+  border-radius: 7px;
+}
+
+/* Seccion Footer */
+footer {
+  display: flex;
+  max-width: 1200px;
+  color: #1e130c;
+  padding: 20px 0;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo h1 {
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #003366;
+}
+
+footer .contactos-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.icono-responsive {
+  padding-right: 5px;
+}
+footer .contactos-redes .telefonos {
+  display: flex;
+}
+footer .contactos-redes .telefonos p {
+  padding-left: 10px;
+}
+
+footer .contactos-redes .contacto-web {
+  display: flex;
+}
+footer .contactos-redes .contacto-web img {
+  width: 24px;
+  padding-right: 5px;
+}
+
+/* Efects */
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+@keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
