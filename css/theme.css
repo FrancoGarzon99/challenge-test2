@@ -85,6 +85,7 @@ header {
   margin: 0;
   color: #fff;
   font-size: 40px;
+  text-shadow: 1px 1px 3px rgba(150, 150, 150, 2);
 }
 .inicio .contenedor-titulo {
   width: 100%;
@@ -92,6 +93,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 /* Seccion Nosotros */
 .nosotros {
