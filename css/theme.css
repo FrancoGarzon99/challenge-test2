@@ -140,6 +140,11 @@ header .icon-mobile {
   align-items: center;
   text-align: center;
   padding: 15px 10px;
+  margin: 10px;
+  transition: all ease-in;
+}
+.servicios-texto-imagen:hover {
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Seccion Contacto */
