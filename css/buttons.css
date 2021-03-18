@@ -1,0 +1,30 @@
+/* Botones */
+.btn-primary {
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+  background: #003366;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+  outline: none;
+}
+.btn-primary:hover {
+  background: #01458a;
+  box-shadow: 10px 10px 8px 0px rgba(121, 131, 192, 0.28);
+}
+
+.btn-secondary:hover {
+  background: #01458a;
+  box-shadow: 10px 10px 8px 0px rgba(121, 131, 192, 0.28);
+}
+
+.btn-secondary {
+  background: #003366;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 60px;
+  outline: none;
+}
