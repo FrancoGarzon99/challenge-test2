@@ -83,10 +83,14 @@ header .icon-mobile {
   max-width: 1200px;
 }
 .nosotros .txt-info {
-  width: 500px;
+  width: 600px;
+}
+.nosotros .txt-info h1 {
+  color: #003366;
 }
 .nosotros .contenedor-logos-nosotros {
   display: flex;
+  padding-top: 20px;
 }
 .nosotros .logos-nosotros {
   display: flex;
@@ -200,7 +204,7 @@ footer {
   align-items: center;
 }
 
-footer .logo h1 {
+.logo h1 {
   font-size: 50px;
   margin: 0;
   margin-bottom: 5px;
