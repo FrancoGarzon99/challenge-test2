@@ -1,0 +1,83 @@
+/* MOBILE FIST */
+@media (min-width: 290px) and (max-width: 560px) {
+  header .links-navegacion {
+    display: none;
+  }
+  header .icon-mobile {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+  .inicio p {
+    font-size: 24px;
+  }
+  .imagen-nosotros {
+    display: none;
+  }
+  .nosotros .contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    font-size: 15px;
+  }
+  .nosotros .contenedor-logos-nosotros p {
+    font-size: 11px;
+  }
+
+  .nosotros .txt-info {
+    width: 100%;
+  }
+  .nosotros .txt-info p {
+    font-weight: 300;
+  }
+  .nuestros-servicios .servicios-contenido {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
+  /* Contacto */
+  .contacto .imagen-de-fondo {
+    height: 85vh;
+  }
+  .contacto .titulo-principal {
+    width: 400px;
+    text-align: center;
+  }
+  .contacto .campos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  }
+  .contacto .campos .datos-principales {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .contacto .campos .mensaje {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .contacto .campos .datos-principales input {
+    width: 300px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .contacto .campos .mensaje textarea {
+    width: 300px;
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .contactos-redes {
+    font-size: 15px;
+  }
+}

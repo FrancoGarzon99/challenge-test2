@@ -47,6 +47,11 @@ header {
   color: #003366;
   z-index: 999;
 }
+header .icon-mobile {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
 .header-color {
   background: #ffffff;
   color: #003366;
